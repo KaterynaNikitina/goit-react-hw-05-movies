@@ -7,7 +7,7 @@ export const Container = styled.div`
     margin: 0 auto;
     min-width: 100%;
 
-    /* @media screen and (min-width: 480px) {
+    @media screen and (min-width: 480px) {
     width: 480px;
   }
 
@@ -17,7 +17,7 @@ export const Container = styled.div`
 
   @media screen and (min-width: 1280px){
     width: 1280px;
-  } */
+  } 
 `;
 
 export const NavList = styled.ul`
@@ -27,6 +27,12 @@ export const NavList = styled.ul`
     gap: 16px;
     height: 85px;
     margin: 0 0 30px 0;
+    &.hover {
+    color: #fff;
+    cursor: pointer;
+
+  }
+    
 `;
 
 export const Link = styled(NavLink)`
@@ -38,5 +44,6 @@ export const Link = styled(NavLink)`
     &.active {
     color: #0f0c5c;
     background-color: #adc6f8;
+
   }
 `
