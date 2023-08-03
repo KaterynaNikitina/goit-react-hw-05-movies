@@ -2,10 +2,10 @@ import { styled } from 'styled-components';
 
 export const Container = styled.div`
   /* background-color: #acd7f7; */
-  color: #0f0c5c;
+  /* color: #0f0c5c;
   margin: o auto;
-  min-width: 320px;
-
+  min-width: 320px; */
+/* 
   @media screen and (min-width: 480px) {
     width: 480px;
   }
@@ -16,15 +16,17 @@ export const Container = styled.div`
 
   @media screen and (min-width: 1280px) {
     width: 1280px;
-  }
+  } */
 `;
 
 export const List = styled.ul`
+padding: 16px 16px;
   @media screen and (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
     column-gap: 16px;
     row-gap: 28px;
+   
   }
 `;
 
